@@ -64,7 +64,6 @@ class Login extends StatelessWidget {
               SizedBox(height:20),
               defaultButton(
                 text: 'NEXT',
-                color: Colors.blue,
                 onPressed: () {
                   print(emailconrol.text);
                   print(passwordcontrol.text);
