@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'form.dart';
 import 'modules/bmi_screen/bmi_screen.dart';
 import 'modules/login/login.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Login(),
+      home: from(),
     );
   }
 }
